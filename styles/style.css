@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    background-color: rgb(70, 70, 70);
+    background-image: url('../img/external-content.duckduckgo.com.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+ul {
+    text-align: left;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+select {
+    margin-top: 0;
+}
+
+.card {
+    margin-top: 1rem;
+    display: none;
+    width: 20rem;
+}
+
+.list-group-item {
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+.list-group-item:hover {
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.page-footer {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: black;
+}
+
+.card-body {
+    background-color: rgb(43, 42, 42);
+}
+
+.form-control {
+    width: 10rem;
+}
+
+.col-md-6 {
+    background-color: black;
+}
+
+#removeButton {
+    display: none;
+    margin: auto;
+}
